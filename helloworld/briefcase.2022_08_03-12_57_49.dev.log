@@ -1,0 +1,198 @@
+Date/Time:       2022-08-03 12:57:50 
+Command line:    C:\Users\lynnw\OneDrive\Desktop\App making\Beeware tutorial\beeware-venv\Scripts\briefcase dev
+
+OS Release:      Windows 10
+OS Version:      10.0.19043
+Architecture:    AMD64
+Platform:        Windows-10-10.0.19043-SP0
+
+Python exe:      C:\Users\lynnw\OneDrive\Desktop\App making\Beeware tutorial\beeware-venv\Scripts\python.exe
+Python version:  3.10.6 (tags/v3.10.6:9c7b4bd, Aug  1 2022, 21:53:49) [MSC v.1932 64 bit (AMD64)]
+Virtual env:     True
+Conda env:       False
+
+Briefcase:       0.3.8
+Target platform: windows
+Target format:   None
+
+Environment Variables:
+    ALLUSERSPROFILE=C:\ProgramData
+    APPDATA=C:\Users\lynnw\AppData\Roaming
+    CHROME_CRASHPAD_PIPE_NAME=\\.\pipe\crashpad_40380_FIMZQLHFQNZAMGRB
+    COLORTERM=truecolor
+    COMMONPROGRAMFILES=C:\Program Files\Common Files
+    COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files
+    COMMONPROGRAMW6432=C:\Program Files\Common Files
+    COMPUTERNAME=DESKTOP-7C4GJQG
+    COMSPEC=C:\Windows\system32\cmd.exe
+    DRIVERDATA=C:\Windows\System32\Drivers\DriverData
+    GIT_ASKPASS=********************
+    HOMEDRIVE=C:
+    HOMEPATH=\Users\lynnw
+    LANG=en_US.UTF-8
+    LOCALAPPDATA=C:\Users\lynnw\AppData\Local
+    LOGONSERVER=\\DESKTOP-7C4GJQG
+    NUMBER_OF_PROCESSORS=4
+    ONEDRIVE=C:\Users\lynnw\OneDrive
+    ONEDRIVECONSUMER=C:\Users\lynnw\OneDrive
+    ORIGINAL_XDG_CURRENT_DESKTOP=undefined
+    OS=Windows_NT
+    PATH=C:\Users\lynnw\OneDrive\Desktop\App making\Beeware tutorial\beeware-venv\Scripts;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files (x86)\Git\cmd;C:\Users\lynnw\AppData\Local\Microsoft\WindowsApps;C:\Users\lynnw\.dotnet\tools;C:\Users\lynnw\AppData\Local\Programs\Microsoft VS Code\bin
+    PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+    PROCESSOR_ARCHITECTURE=AMD64
+    PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 69 Stepping 1, GenuineIntel
+    PROCESSOR_LEVEL=6
+    PROCESSOR_REVISION=4501
+    PROGRAMDATA=C:\ProgramData
+    PROGRAMFILES=C:\Program Files
+    PROGRAMFILES(X86)=C:\Program Files (x86)
+    PROGRAMW6432=C:\Program Files
+    PROMPT=(beeware-venv) $P$G
+    PSMODULEPATH=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+    PUBLIC=C:\Users\Public
+    SESSIONNAME=Console
+    SYSTEMDRIVE=C:
+    SYSTEMROOT=C:\Windows
+    TEMP=C:\Users\lynnw\AppData\Local\Temp
+    TERM_PROGRAM=vscode
+    TERM_PROGRAM_VERSION=1.69.2
+    TMP=C:\Users\lynnw\AppData\Local\Temp
+    USERDOMAIN=DESKTOP-7C4GJQG
+    USERDOMAIN_ROAMINGPROFILE=DESKTOP-7C4GJQG
+    USERNAME=lynnw
+    USERPROFILE=C:\Users\lynnw
+    VIRTUAL_ENV=C:\Users\lynnw\OneDrive\Desktop\App making\Beeware tutorial\beeware-venv
+    VIRTUAL_ENV_PROMPT=(beeware-venv) 
+    VSCODE_GIT_ASKPASS_EXTRA_ARGS=********************
+    VSCODE_GIT_ASKPASS_MAIN=********************
+    VSCODE_GIT_ASKPASS_NODE=********************
+    VSCODE_GIT_IPC_HANDLE=\\.\pipe\vscode-git-dbe6a4b92d-sock
+    WINDIR=C:\Windows
+    _OLD_VIRTUAL_PATH=C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files (x86)\Git\cmd;C:\Users\lynnw\AppData\Local\Microsoft\WindowsApps;C:\Users\lynnw\.dotnet\tools;C:\Users\lynnw\AppData\Local\Programs\Microsoft VS Code\bin
+    _OLD_VIRTUAL_PROMPT=$P$G
+
+Briefcase Log:
+[12:57:48]                                                                                                                                                                dev.py:147
+           [helloworld] Starting in dev mode...                                                                                                                           dev.py:147
+                                                                                                                                                                   subprocess.py:433
+           >>> Running Command:                                                                                                                                    subprocess.py:434
+           >>>     'C:\Users\lynnw\OneDrive\Desktop\App making\Beeware tutorial\beeware-venv\Scripts\python.exe' -m helloworld                                     subprocess.py:435
+           >>> Environment Overrides:                                                                                                                              subprocess.py:446
+           >>>     PYTHONPATH=src                                                                                                                                  subprocess.py:448
+[12:57:49] >>> Return code: 1                                                                                                                                      subprocess.py:464
+                                                                                                                                                                      __main__.py:21
+           Unable to start application 'helloworld'                                                                                                                   __main__.py:22
+
+╭─────────────────────────────────────────────────────────────────────── Traceback (most recent call last) ────────────────────────────────────────────────────────────────────────╮
+│ C:\Users\lynnw\OneDrive\Desktop\App making\Beeware tutorial\beeware-venv\lib\site-packages\briefcase\commands\dev.py:88 in run_dev_app                                           │
+│                                                                                                                                                                                  │
+│    85 │   │   """                                                                             ╭────────────────────────────────── locals ──────────────────────────────────╮     │
+│    86 │   │   try:                                                                            │     app = <com.example.helloworld v0.0.1 AppConfig>                        │     │
+│    87 │   │   │   # Invoke the app.                                                           │     env = {'PYTHONPATH': 'src'}                                            │     │
+│ ❱  88 │   │   │   self.subprocess.run(                                                        │ options = {}                                                               │     │
+│    89 │   │   │   │   [sys.executable, "-m", app.module_name],                                │    self = <briefcase.commands.dev.DevCommand object at 0x000002588DA98220> │     │
+│    90 │   │   │   │   env=env,                                                                ╰────────────────────────────────────────────────────────────────────────────╯     │
+│    91 │   │   │   │   check=True,                                                                                                                                                │
+│                                                                                                                                                                                  │
+│ C:\Users\lynnw\OneDrive\Desktop\App making\Beeware tutorial\beeware-venv\lib\site-packages\briefcase\integrations\subprocess.py:223 in run                                       │
+│                                                                                                                                                                                  │
+│   220 │   │   self._log_environment(kwargs.get("env"))                                                                                                                           │
+│   221 │   │                                                                                                                                                                      │
+│   222 │   │   try:                                                                                                                                                               │
+│ ❱ 223 │   │   │   command_result = self._subprocess.run(                                                                                                                         │
+│   224 │   │   │   │   [str(arg) for arg in args], **self.final_kwargs(**kwargs)                                                                                                  │
+│   225 │   │   │   )                                                                                                                                                              │
+│   226 │   │   except subprocess.CalledProcessError as e:                                                                                                                         │
+│                                                                                                                                                                                  │
+│ ╭────────────────────────────────────────────────────────────────── locals ──────────────────────────────────────────────────────────────────╮                                   │
+│ │                 args = ['C:\\Users\\lynnw\\OneDrive\\Desktop\\App making\\Beeware tutorial\\beeware-venv\\Scripts'+11, '-m', 'helloworld'] │                                   │
+│ │ is_output_redirected = None                                                                                                                │                                   │
+│ │               kwargs = {'env': {'PYTHONPATH': 'src'}, 'check': True}                                                                       │                                   │
+│ │                 self = <briefcase.integrations.subprocess.Subprocess object at 0x000002588DA984C0>                                         │                                   │
+│ │        stream_output = False                                                                                                               │                                   │
+│ ╰────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯                                   │
+│                                                                                                                                                                                  │
+│ C:\Users\lynnw\AppData\Local\Programs\Python\Python310\lib\subprocess.py:524 in run                                                                                              │
+│                                                                                                                                                                                  │
+│    521 │   │   │   raise                                                                                                                                                         │
+│    522 │   │   retcode = process.poll()                                                                                                                                          │
+│    523 │   │   if check and retcode:                                                                                                                                             │
+│ ❱  524 │   │   │   raise CalledProcessError(retcode, process.args,                                                                                                               │
+│    525 │   │   │   │   │   │   │   │   │    output=stdout, stderr=stderr)                                                                                                        │
+│    526 │   return CompletedProcess(process.args, retcode, stdout, stderr)                                                                                                        │
+│    527                                                                                                                                                                           │
+│                                                                                                                                                                                  │
+│ ╭──────────────────────────────────────────────────────────────── locals ─────────────────────────────────────────────────────────────────╮                                      │
+│ │ capture_output = False                                                                                                                  │                                      │
+│ │          check = True                                                                                                                   │                                      │
+│ │          input = None                                                                                                                   │                                      │
+│ │         kwargs = {                                                                                                                      │                                      │
+│ │                  │   'env': {                                                                                                           │                                      │
+│ │                  │   │   'ALLUSERSPROFILE': 'C:\\ProgramData',                                                                          │                                      │
+│ │                  │   │   'APPDATA': 'C:\\Users\\lynnw\\AppData\\Roaming',                                                               │                                      │
+│ │                  │   │   'CHROME_CRASHPAD_PIPE_NAME': '\\\\.\\pipe\\crashpad_40380_FIMZQLHFQNZAMGRB',                                   │                                      │
+│ │                  │   │   'COMMONPROGRAMFILES': 'C:\\Program Files\\Common Files',                                                       │                                      │
+│ │                  │   │   'COMMONPROGRAMFILES(X86)': 'C:\\Program Files (x86)\\Common Files',                                            │                                      │
+│ │                  │   │   'COMMONPROGRAMW6432': 'C:\\Program Files\\Common Files',                                                       │                                      │
+│ │                  │   │   'COMPUTERNAME': 'DESKTOP-7C4GJQG',                                                                             │                                      │
+│ │                  │   │   'COMSPEC': 'C:\\Windows\\system32\\cmd.exe',                                                                   │                                      │
+│ │                  │   │   'DRIVERDATA': 'C:\\Windows\\System32\\Drivers\\DriverData',                                                    │                                      │
+│ │                  │   │   'HOMEDRIVE': 'C:',                                                                                             │                                      │
+│ │                  │   │   ... +45                                                                                                        │                                      │
+│ │                  │   },                                                                                                                 │                                      │
+│ │                  │   'text': True,                                                                                                      │                                      │
+│ │                  │   'encoding': 'cp437'                                                                                                │                                      │
+│ │                  }                                                                                                                      │                                      │
+│ │      popenargs = (['C:\\Users\\lynnw\\OneDrive\\Desktop\\App making\\Beeware tutorial\\beeware-venv\\Scripts'+11, '-m', 'helloworld'],) │                                      │
+│ │        process = <Popen: returncode: 1 args: ['C:\\Users\\lynnw\\OneDrive\\Desktop\\App makin...>                                       │                                      │
+│ │        retcode = 1                                                                                                                      │                                      │
+│ │         stderr = None                                                                                                                   │                                      │
+│ │         stdout = None                                                                                                                   │                                      │
+│ │        timeout = None                                                                                                                   │                                      │
+│ ╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯                                      │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+CalledProcessError: Command '['C:\\Users\\lynnw\\OneDrive\\Desktop\\App making\\Beeware tutorial\\beeware-venv\\Scripts\\python.exe', '-m', 'helloworld']' returned non-zero exit status 1.
+
+The above exception was the direct cause of the following exception:
+
+╭─────────────────────────────────────────────────────────────────────── Traceback (most recent call last) ────────────────────────────────────────────────────────────────────────╮
+│ C:\Users\lynnw\OneDrive\Desktop\App making\Beeware tutorial\beeware-venv\lib\site-packages\briefcase\__main__.py:14 in main                                                      │
+│                                                                                                                                                                                  │
+│   11 │   try:                                                                                ╭────────────────────────────────── locals ───────────────────────────────────╮     │
+│   12 │   │   command, options = parse_cmdline(sys.argv[1:])                                  │ command = <briefcase.commands.dev.DevCommand object at 0x000002588DA98220>  │     │
+│   13 │   │   command.parse_config("pyproject.toml")                                          │       e = BriefcaseCommandError("Unable to start application 'helloworld'") │     │
+│ ❱ 14 │   │   command(**options)                                                              │     log = <briefcase.console.Log object at 0x000002588A0B9780>              │     │
+│   15 │   │   result = 0                                                                      │ options = {'appname': None, 'update_dependencies': False, 'run_app': True}  │     │
+│   16 │   except HelpText as e:                                                               │  result = 200                                                               │     │
+│   17 │   │   log.info()                                                                      ╰─────────────────────────────────────────────────────────────────────────────╯     │
+│                                                                                                                                                                                  │
+│ C:\Users\lynnw\OneDrive\Desktop\App making\Beeware tutorial\beeware-venv\lib\site-packages\briefcase\commands\dev.py:149 in __call__                                             │
+│                                                                                                                                                                                  │
+│   146 │   │   if run_app:                                                                                                                                                        │
+│   147 │   │   │   self.logger.info("Starting in dev mode...", prefix=app.app_name)                                                                                               │
+│   148 │   │   │   env = self.get_environment(app)                                                                                                                                │
+│ ❱ 149 │   │   │   return self.run_dev_app(app, env, **options)                                                                                                                   │
+│   150                                                                                                                                                                            │
+│                                                                                                                                                                                  │
+│ ╭─────────────────────────────────────────────────────────────── locals ───────────────────────────────────────────────────────────────╮                                         │
+│ │                 app = <com.example.helloworld v0.0.1 AppConfig>                                                                      │                                         │
+│ │             appname = None                                                                                                           │                                         │
+│ │      dist_info_path = WindowsPath('C:/Users/lynnw/OneDrive/Desktop/App making/Beeware tutorial/helloworld/src/helloworld.dist-info') │                                         │
+│ │                 env = {'PYTHONPATH': 'src'}                                                                                          │                                         │
+│ │             options = {}                                                                                                             │                                         │
+│ │             run_app = True                                                                                                           │                                         │
+│ │                self = <briefcase.commands.dev.DevCommand object at 0x000002588DA98220>                                               │                                         │
+│ │ update_dependencies = False                                                                                                          │                                         │
+│ ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯                                         │
+│                                                                                                                                                                                  │
+│ C:\Users\lynnw\OneDrive\Desktop\App making\Beeware tutorial\beeware-venv\lib\site-packages\briefcase\commands\dev.py:94 in run_dev_app                                           │
+│                                                                                                                                                                                  │
+│    91 │   │   │   │   check=True,                                                             ╭────────────────────────────────── locals ──────────────────────────────────╮     │
+│    92 │   │   │   )                                                                           │     app = <com.example.helloworld v0.0.1 AppConfig>                        │     │
+│    93 │   │   except subprocess.CalledProcessError as e:                                      │     env = {'PYTHONPATH': 'src'}                                            │     │
+│ ❱  94 │   │   │   raise BriefcaseCommandError(                                                │ options = {}                                                               │     │
+│    95 │   │   │   │   f"Unable to start application '{app.app_name}'"                         │    self = <briefcase.commands.dev.DevCommand object at 0x000002588DA98220> │     │
+│    96 │   │   │   ) from e                                                                    ╰────────────────────────────────────────────────────────────────────────────╯     │
+│    97                                                                                                                                                                            │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+BriefcaseCommandError: Unable to start application 'helloworld'
