@@ -36,5 +36,5 @@ class HelloWorld(toga.App):
     def say_hello(self, widget):
         print("Hello,", self.name_input.value)
 
-def main():
-    return 'Helloworld'()
+    def main():
+        return 'Helloworld'()
